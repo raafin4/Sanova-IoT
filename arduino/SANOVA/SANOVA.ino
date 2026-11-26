@@ -7,6 +7,7 @@
 #include <WebServer.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
+#include "secrets.h"
 
 // GPIO ESP32
 #define ULTRA_TRIG 27
@@ -24,8 +25,8 @@
 #define HX_SCK 23
 
 //SSID & Password WiFi
-const char* ssid = "XXXXXXXXXXX";
-const char* password = "XXXXXXXXXXX";
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASS;
 WebServer server(80);
 
 // Konfigurasi Server Monitoring

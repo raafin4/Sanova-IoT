@@ -18,4 +18,5 @@ mobile_app/android/key.properties
 mobile_app/android/app/*.jks
 mobile_app/android/app/*.keystore
 mobile_app/android/app/google-services.json
-arduino/secrets.h
+arduino/*/secrets.h
+server/config.php
